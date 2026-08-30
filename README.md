@@ -2,16 +2,16 @@
 
 Public download repo for **GJ16** installer binaries.
 
-> **Alpha status:** the published builds (currently `v0.1.0`) are **alpha / testing builds**,
-> not stable releases. They're here so testers can try the app and report issues. Expect bugs
-> and rough edges — the app is still in early development.
+> **Alpha status:** the published builds are **alpha / testing builds**, not stable releases.
+> They're here so testers can try the app and report issues. Expect bugs and rough edges — the
+> app is still in early development.
 
 ## Download (Windows)
 
 Grab the installer from the **latest release**:
 
-- [`GJ16_0.1.0_x64-setup.exe`](https://github.com/yash-desai-naik/gj16-releases/releases/latest/download/GJ16_0.1.0_x64-setup.exe) — NSIS installer (recommended)
-- [`GJ16_0.1.0_x64_en-US.msi`](https://github.com/yash-desai-naik/gj16-releases/releases/latest/download/GJ16_0.1.0_x64_en-US.msi) — MSI installer
+- [`GJ16_0.2.0_x64-setup.exe`](https://github.com/yash-desai-naik/gj16-releases/releases/latest/download/GJ16_0.2.0_x64-setup.exe) — NSIS installer (recommended)
+- [`GJ16_0.2.0_x64_en-US.msi`](https://github.com/yash-desai-naik/gj16-releases/releases/latest/download/GJ16_0.2.0_x64_en-US.msi) — MSI installer
 
 macOS and Linux builds are not available yet.
 
@@ -23,9 +23,10 @@ anyone (a private repo's release assets aren't publicly downloadable).
 
 ## Status
 
-| Version | Channel        | Notes                                   |
-| ------- | -------------- | --------------------------------------- |
-| v0.1.0  | Alpha testing  | First published build — feedback wanted |
+| Version | Channel        | Notes                                                              |
+| ------- | -------------- | ------------------------------------------------------------------ |
+| v0.2.0  | Alpha testing  | Self-contained installer (bundles adb, WebView2, SQLite), UI pass   |
+| v0.1.0  | Alpha testing  | First published build — feedback wanted                             |
 
 ## Reproduce a release
 
