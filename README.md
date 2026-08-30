@@ -10,8 +10,8 @@ Public download repo for **GJ16** installer binaries.
 
 Grab the installer from the **latest release**:
 
-- [`GJ16_0.2.1_x64-setup.exe`](https://github.com/yash-desai-naik/gj16-releases/releases/latest/download/GJ16_0.2.1_x64-setup.exe) — NSIS installer (recommended)
-- [`GJ16_0.2.1_x64_en-US.msi`](https://github.com/yash-desai-naik/gj16-releases/releases/latest/download/GJ16_0.2.1_x64_en-US.msi) — MSI installer
+- [`GJ16_0.2.2_x64-setup.exe`](https://github.com/yash-desai-naik/gj16-releases/releases/latest/download/GJ16_0.2.2_x64-setup.exe) — NSIS installer (recommended)
+- [`GJ16_0.2.2_x64_en-US.msi`](https://github.com/yash-desai-naik/gj16-releases/releases/latest/download/GJ16_0.2.2_x64_en-US.msi) — MSI installer
 
 macOS and Linux builds are not available yet.
 
@@ -25,6 +25,7 @@ anyone (a private repo's release assets aren't publicly downloadable).
 
 | Version | Channel        | Notes                                                                 |
 | ------- | -------------- | --------------------------------------------------------------------- |
+| v0.2.2  | Alpha testing  | Fix installer "file in use" on adb DLLs (GJ16 now stops the adb server) |
 | v0.2.1  | Alpha testing  | Fix console window flashes on launch (adb CREATE_NO_WINDOW)           |
 | v0.2.0  | Alpha testing  | Self-contained installer (bundles adb, WebView2, SQLite), UI pass      |
 | v0.1.0  | Alpha testing  | First published build — feedback wanted                                |
