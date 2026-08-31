@@ -10,8 +10,8 @@ Public download repo for **GJ16** installer binaries.
 
 Grab the installer from the **latest release**:
 
-- [`GJ16_0.2.9_x64-setup.exe`](https://github.com/yash-desai-naik/gj16-releases/releases/latest/download/GJ16_0.2.9_x64-setup.exe) — NSIS installer (recommended)
-- [`GJ16_0.2.9_x64_en-US.msi`](https://github.com/yash-desai-naik/gj16-releases/releases/latest/download/GJ16_0.2.9_x64_en-US.msi) — MSI installer
+- [`GJ16_0.2.11_x64-setup.exe`](https://github.com/yash-desai-naik/gj16-releases/releases/latest/download/GJ16_0.2.11_x64-setup.exe) — NSIS installer (recommended)
+- [`GJ16_0.2.11_x64_en-US.msi`](https://github.com/yash-desai-naik/gj16-releases/releases/latest/download/GJ16_0.2.11_x64_en-US.msi) — MSI installer
 
 macOS and Linux builds are not available yet.
 
@@ -25,6 +25,8 @@ anyone (a private repo's release assets aren't publicly downloadable).
 
 | Version | Channel        | Notes                                                                 |
 | ------- | -------------- | --------------------------------------------------------------------- |
+| v0.2.11 | Alpha testing  | Cached duplicate-grid thumbnails; background quarantine restore/delete + permanent delete |
+| v0.2.10 | Alpha testing  | Cached duplicate thumbnails, restore scan state on remount            |
 | v0.2.9  | Alpha testing  | Duplicate scan in background, cached across navigation, parallelized   |
 | v0.2.8  | Alpha testing  | New GJ16 wordmark branding (app + shortcut icons)                      |
 | v0.2.7  | Alpha testing  | Duplicate scan is async with live progress (no more UI freeze)         |
